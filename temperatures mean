@@ -1,0 +1,5 @@
+import numpy as np
+
+temperatures = np.array([30.5, 39.6, 45.5, 38.8, 38.4])
+average = np.mean(temperatures)
+print(average)
